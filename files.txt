@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Two Column Design</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assignment Solution for Module 2</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+div {
+ width: 90%;
+}
+
+p {
+  width: 80%;
+  float: left;
+  padding: 10px;
+}
+
+#p1 {
+  /*background-color: #A52A2A;*/
+}
+#p2 {
+  /*background-color: #DEB887;*/
+}
+
+section {
+  float: left;
+  border: 2px solid black;
+  background-color: gray;
+  position: relative;
+  margin-left: 0px;
+}
+
+.hPlates {
+  padding: 3px;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border: 1px solid black;
+}
+
+#hChicken{
+  background-color: pink;
+}
+
+#hBeef {
+  background-color: rgb(199, 49, 49);
+}
+
+#hSushi {
+  background-color: rgb(236, 189, 128);
+}
+
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<h1>Our Menu</h1>
+
+<div>
+  <section class="section col-lg-4" >
+    <h2 class="hPlates" id="hChicken">Chicken</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae atque iste ab maiores voluptate corrupti cum nemo, optio ratione non libero quasi aspernatur inventore quas, rem a reiciendis sed eaque?</p>
+  </section>
+  
+  <section class="section col-lg-4">
+    <h2 class="hPlates" id="hBeef">Beef</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae atque iste ab maiores voluptate corrupti cum nemo, optio ratione non libero quasi aspernatur inventore quas, rem a reiciendis sed eaque?</p>
+  </section>
+
+  <section class="section col-lg-4">
+    <h2 class="hPlates" id="hSushi">Sushi</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae atque iste ab maiores voluptate corrupti cum nemo, optio ratione non libero quasi aspernatur inventore quas, rem a reiciendis sed eaque?</p>
+  </section>
+</div>
+
+
+</body>
+</html>
